@@ -1,0 +1,112 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: blueviolet;
+    font-size: large;
+    padding:10px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-spacing: 25px;
+}
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.line {
+    background-color: black;
+}
+main{
+    background-color: blanchedalmond;
+    margin: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;           
+    gap: 20px;                
+}
+.servive section{
+    margin: 0;
+    width: 30%;
+    height: 30%;
+    max-width: 20%;
+}
+.service_content{
+    width: 80%;
+    height: 80%;
+    word-wrap: inherit;
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    font-family: "Brush Script MT",cursive;
+    display: flex;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    padding: 0 40px;
+    margin: auto;
+    justify-content: center;
+}
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background-color: blueviolet;
+    padding: 10px;
+}
+/* Conteneur de la barre de recherche */
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* Champ de recherche */
+.search-input {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+/* Bouton de recherche */
+.search-button {
+    background-color: #023047;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-left: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #011f29;
+}
+
+.search-input:focus {
+    border-color: #023047;
+    outline: none;
+}

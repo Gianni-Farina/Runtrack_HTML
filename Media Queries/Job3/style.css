@@ -1,0 +1,42 @@
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #88c1d0;
+    min-width: 10%;
+    min-height: 100px;
+}
+
+@media screen and (min-width:1600px) {
+    main{
+        display: flex;
+    }
+    section{
+        width:25%;
+        margin: 20px;
+    }
+}
+
+@media all and (max-width:1599px) and (min-width:768px) {
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section{
+        width:45%;
+        margin: 10px;
+    }
+}
+
+@media all and (max-width:767px) {
+    main{
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows:1fr;
+        gap:20px;
+    }
+    section{
+        grid-column: 2;
+    }
+}

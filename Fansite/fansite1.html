@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page d'accueil du fansite sur Young Thug">
+    <meta name="keywords" content="Young Thug, Atlanta, Chicago, rap, Gunna, Lil Baby, YSL, gang, Drake, Future, Barter 6, trap, Blood">
+    <link rel="stylesheet" href="style.css">
+    <title>Young Thug - Fansite</title>
+</head>
+<body>
+    <!-- Header sticky avec logo et menu burger -->
+    <header>
+        <nav>
+            <a href="./fansite1.html" aria-label="Retour à l'accueil du site">
+                <img src="images/YSL_Records_Official_Logo.png" alt="Logo YSL">
+            </a>
+
+            <!-- Menu burger -->
+            <input type="checkbox" id="toggle-menu">
+            <label for="toggle-menu" class="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Navigation principale -->
+            <div id="nav-bar">
+                <a href="fansite1.html" aria-label="Retour à l'accueil">Accueil</a>
+                <a href="fansite2.html" aria-label="Voir la discographie de Young Thug">Discographie</a>
+                <a href="fansite4.html" aria-label="Dernières actualités sur Young Thug">Actualités</a>
+                <a href="index.html" aria-label="Voir les sites partenaires">Sites partenaires</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section principale avec carrousel -->
+    <main>
+        <section class="carousel-section">
+            <div class="carousel-container">
+                <input type="radio" name="carousel" id="item1" checked>
+                <input type="radio" name="carousel" id="item2">
+                <input type="radio" name="carousel" id="item3">
+                
+                <div class="carousel">
+                    <div class="carousel-item">
+                        <a href="https://generations.fr/news/coulisse/78572/young-thug-est-enfin-libre" aria-label="lien vers un article parlant du jugement de Young">
+                         <img src="images/youngthug_trial.JPG" alt="Young Thug à son jugement">
+                    </a>
+                        <div class="carousel-text">Young Thug est libre!</div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.rollingstone.com/music/music-album-reviews/young-thug-business-is-business-review-1234778044/" aria-label="lien vers une revue de presse de son album Business is Business">
+                           <img src="images/BusinessIsBusiness.jpg" alt="Cover de l'album Business is Business">
+                        </a> 
+                        <div class="carousel-text">Album Business is Business</div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://hypesoul.com/a-la-decouverte-du-ysl-record-label-de-young-thug/" aria-label="lien vers un article parlant du label créer par Young Thug">
+                            <img src="images/Lil-Baby-Gunna-Young-Thug-Visu-News.jpg" alt="Lil Baby, Gunna et Young Thug">
+                        </a>
+                        <div class="carousel-text">Lil Baby, Gunna et Young Thug</div>
+                    </div>
+                </div>
+        
+                <!-- Coté flou -->
+                <div class="fade left"></div>
+                <div class="fade right"></div>
+        
+                <!-- Boutons de navigation -->
+                <div class="carousel-nav">
+                    <label for="item1"></label>
+                    <label for="item2"></label>
+                    <label for="item3"></label>
+                </div>
+            </div>
+        </section>        
+        
+    </main>
+
+    <!-- Footer avec les liens officiels de l'artiste -->
+    <footer>
+        <div class="media-YoungThug">
+            <h2>Liens officiels de l'artiste</h2>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/channel/UCuwdplPbuTFZj_64d03tSBA" aria-label="Accéder à la chaîne YouTube du rappeur">
+                    <img src="images/media/Youtube_logo.png" alt="Logo YouTube">
+                </a>
+                <a href="https://www.instagram.com/thuggerthugger1" aria-label="Accéder à la page Instagram du rappeur">
+                    <img src="images/media/Instagram-logo.png" alt="Logo Instagram">
+                </a>
+                <a href="https://www.twitter.com/youngthug" aria-label="Accéder à la page X (Twitter) du rappeur">
+                    <img src="images/media/logo_x.png" alt="Logo X (Twitter)" style="filter: invert(1);">
+                </a>
+                <a href="https://www.facebook.com/youngthugmusic" aria-label="Accéder à la page Facebook du rappeur">
+                    <img src="images/media/Facebook_logo_(square).png" alt="Logo Facebook">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
